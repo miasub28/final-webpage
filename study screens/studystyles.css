@@ -1,0 +1,60 @@
+
+html{
+    background:rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+    text-align: center ;
+
+
+}
+body {
+    background:rgb(255, 228, 236);
+    width: 1000;
+    margin: 0 auto;
+    border: 8px solid rgb(255, 255, 255);
+    padding: 0 20px 20px 20px;
+}
+p {
+    background: rgb(#E8B9AB);
+    font-size:18px;
+    line-height:3;
+    letter-spacing:3px;
+    text-align: center;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    image-rendering: pixelated;
+}
+
+#countdown {
+    /* background-color: whitesmoke; */
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align: center;
+    width: 500;
+    font-family: 'Jost', sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+
+}
+
+.button {
+    background-color: aliceblue;
+    border-radius: 20%;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+}
+
+#home {
+    text-align: center
+}
+
+#spotify{
+    text-align: left;
+
+}

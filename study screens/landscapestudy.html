@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>landscape study screen</title>
+    <link  rel="stylesheet" type = "text/css" href="studystyles.css"/>
+</head>
+<body>
+    <div class = "home">
+        <button id = "home" onclick="window.location.href='../index.html'">home</button>
+    </div>
+    <style>
+        .background {
+          background-image: url("http://127.0.0.1:5500/final%20webpage/assets/backg3.jpg");
+          background-size: cover;
+          width: 10;
+          height: 800px;
+          background-repeat: no-repeat;
+          border: solid 1px white;
+        }
+    </style>   
+
+        <div class="background">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5K67Uak75Ct0VsME8tiIH5?utm_source=generator" width="500" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class = "buttonco">
+                <p > <span id='countdown'> </span></p>
+                <p>
+                    <button id="yes" onclick="yes()"></button>
+                    <button id="no" onclick="no()"></button>
+                </p>
+            </div>
+        </div>
+        
+    <script src="work.js"></script>
+</body>
+
+
+</html>

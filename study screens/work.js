@@ -42,11 +42,11 @@ function updateCountdown() {
 
 function yes() {
     countdownEl.innerHTML = "yay!";
-    window.location.href='http://127.0.0.1:5500/final%20webpage/screenselection.html'
+    window.location.href='../screenselection.html'
 
 }
 
 function no() {
     countdownEl.innerHTML = "ok! redirecting you to the home page :)";
-    window.location.href='http://127.0.0.1:5500/final%20webpage/index.html'
+    window.location.href='../index.html'
 }1
